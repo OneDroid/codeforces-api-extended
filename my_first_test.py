@@ -9,7 +9,7 @@ with SB(test=True, uc=True) as sb:
 
     results = []
     results.append({
-        "text": sb.get_page_title(),
+        "text": "Hello World222!!!!!!!!!5!",
     })
 
     # Write the extracted data to a JSON file
