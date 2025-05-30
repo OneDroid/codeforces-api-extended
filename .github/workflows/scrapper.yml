@@ -25,10 +25,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Install SeleniumBase
-        run: |
-          pip install .
-
       - name: Install Chrome
         run: |
           sudo apt install google-chrome-stable
