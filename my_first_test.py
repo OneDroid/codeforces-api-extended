@@ -2,8 +2,9 @@ import json
 from seleniumbase import SB
 
 with SB(test=True, uc=True) as sb:
+
     sb.open("https://google.com/ncr")
-    sb.type('[title="Search"]', "SeleniumBase GitHub page\n")
+    sb.type('[title="Search"]', "Tawhid Monowar\n")
     print(sb.get_page_title())
 
     results = []
